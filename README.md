@@ -28,11 +28,11 @@ This is where the fun began.  Every other image file is missing a header, so the
 
 ***All offsets are relative to the chunk, not the DATA.DAT file***
 
-The first four bytes (1-4) are the frame data offset in little endian
-The second four bytes (5-8) are the animation data offset in little endian
-These bytes are followed by the pixel data, bytes that say what pixels go where
-After the pixel data is the animation data, which was pointed to by the offset previously
-Finally the animation data, which was also pointed to earlier
+- The first four bytes (1-4) are the frame data offset in little endian
+- The second four bytes (5-8) are the animation data offset in little endian
+- These bytes are followed by the pixel data, bytes that say what pixels go where
+- After the pixel data is the animation data, which was pointed to by the offset previously
+- Finally the animation data, which was also pointed to earlier
 
 
 ### Animation data:
