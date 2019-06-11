@@ -81,4 +81,9 @@ Copy the files into a C# project in Visual Studios 2017 and compile.
 Make sure the .dat files (DATA.DAT, red.dat and blue.dat) are in the same location as the .exe.  Then run the exe, it will extract the images and save as .png.  Folders will be created for red and blue sprites, and each animation is saved into a folder named by the offset of the animation file.
 
 ## Roadmap
-One thing not used in the program is the animation data.  This is something that will likely be implemented in the future, and an option to rip the sprites either in order of the animation or in order of declaration as it is currently implemented
+One thing not used in the program is the animation data.  This is something that will likely be implemented in the future, and an option to rip the sprites either in order of the animation or in order of declaration as it is currently implemented.
+
+There are also other static image files, which could be ripped, perhaps in the future these will be done.
+
+## Authors
+Coded and reverse engineered by Shayne Bloom.
